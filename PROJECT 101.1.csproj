@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0FA60DFC-B44A-48B7-85EC-592D8CFBA319}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PROJECT_101._1</RootNamespace>
+    <AssemblyName>PROJECT 101.1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.29.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.cs">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </Compile>
+    <Compile Include=".cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12.Designer.cs">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13.Designer.cs">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14.Designer.cs">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15.Designer.cs">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form16.Designer.cs">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form10.resx">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include=".resx">
+      <DependentUpon>.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12.resx">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13.resx">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14.resx">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form15.resx">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form16.resx">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black Simple Music Studio Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black Simple Music Studio Logo %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-user-group-icon-296-thumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New-Arrivals-300x139.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pre-SALE-.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1219335974-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pre-SALE-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMPRO-PBASS1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ดีไซน์ที่ไม่มีชื่อ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ดีไซน์ที่ไม่มีชื่อ %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ดีไซน์ที่ไม่มีชื่อ %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ดีไซน์ที่ไม่มีชื่อ %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ดีไซน์ที่ไม่มีชื่อ %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fender plus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fender.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1219335974-612x6121.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\am-Pro-ato-mn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-cart-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ฟก.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\da.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dada1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warwick-RockBass-Corvette-Bass-4-2-768x768.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warwick-Rockbass-Corvette-Basic-5-Strings-4-768x768.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warwick-Rockbass-Corvette-Basic-5-Strings-4-768x7681.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warwick-Rockbass-Corvette-Basic-Bass-4-Strings-2-768x768.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warwick-RockBass-Corvette-Bass-5-Strings-4-768x768.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VX-AC30HW2-01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AC10C1-4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face-cover-Marshall-JMD102-768x768.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lp fade.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GS-STD60-LP-UB-02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asdasdasdasdasd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hhhhh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asdasdasdasdasd1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\เเเเเเเ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marshall_origin50c_guitar_amplifier_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FD-ARD-II-JB-BLK-02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20200706_150915.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gibson-j-45-studio-rosewood-antique-natural-gibson-j-45-studio-rosewood.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wellcome to c k p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wellcome to c k p %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ดีไซน์ที่ไม่มีชื่อ %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ดีไซน์ที่ไม่มีชื่อ %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ดีไซน์ที่ไม่มีชื่อ %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ดีไซน์ที่ไม่มีชื่อ %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ดีไซน์ที่ไม่มีชื่อ %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fender 75th Anniversary Telecaster.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fender American QMT Telecaster Pale Moon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fender Modern Jazzmaster.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fender Noventa Jazzmaster.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ดีไซน์ที่ไม่มีชื่อ %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ดีไซน์ที่ไม่มีชื่อ %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asdasdasd.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
